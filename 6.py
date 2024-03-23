@@ -9,4 +9,4 @@ if height == 1:
 elif height == 2:
     print(2)
 else:
-    print(3)
+    print(0)
