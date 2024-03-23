@@ -20,10 +20,10 @@ t.pd()
 t.dot(10)
 
 t.pu()
-t.goto(x-20, y-20)
+t.goto(x - 20, y - 20)
 t.pd()
 
-d = ((x-xc)2 + (y-yc)2)**0.5
+d = ((x - xc)**2 + (y - yc)**2)**0.5
 if d < r:
     t.write(a)
 elif d > r:
